@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login- Super Mall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>
+      Super Mall Login Page
+    </h2>
+      <input type="email" id="email" placeholder="Enter Email">
+      <input type="password" id="password" placeholder="Enter your Password">
+
+      <button onclick="loginuser()">Login </button>
+      <button onclick="signupuser()">Sign </button>
+
+      <p id="message"></p>
+      <script type="module" src="/firebase.js"></script>
+      <script type="module" src="/auth.js"></script>
+  </div>
+</body>
+</html>

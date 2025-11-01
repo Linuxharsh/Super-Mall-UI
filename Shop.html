@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Shop - Super Mall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2> Add Shop Details</h2>
+    <input type="text" id="shopname" placeholder="Shop Name">
+    <input type="text" id="category" placeholder="Category (e.g., Electronics, Clothing)">
+    <input type="text" id="floor" placeholder="floor (e.g., 1, 2, 3)">
+    <textarea id="description" placeholder="Description"></textarea>
+
+    <button onclick="addshop()">Add Shop</button>
+    <p id="message"></p>
+<hr>
+<h3>
+  Shop list
+</h3>
+<div id="shop-list">
+
+  <script type="module" src="/firebase.js"></script>
+  <script type="module" src="/shop.js"></script>
+  </div>
+</body>
+</html>
